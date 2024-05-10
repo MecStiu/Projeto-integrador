@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./esqueci-minha-senha.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="esqueci-minha-senha">
+      <img
+        class="navigation-footer12"
+        alt=""
+        src="./public/navigation--footer.svg"
+      />
+
+      <div class="page-heading9">
+        <div class="esqueci-minha-senha1">Esqueci Minha Senha</div>
+        <div class="divider11"></div>
+      </div>
+      <div class="header12">
+        <div class="coffeehouse12" id="coffeeHouseText">CoffeeHouse</div>
+      </div>
+      <button class="boto26" id="boto">
+        <div class="salvar-senha" id="salvarSenhaText">Salvar Senha</div>
+      </button>
+      <div class="confirmar-senha">
+        <input class="label41" placeholder="Confirmar nova senha" type="password" />
+      </div>
+      <div class="nova-senha">
+        <input class="label41" placeholder="Nova senha" type="password" />
+      </div>
+    </div>
+
+    <script>
+      var coffeeHouseText = document.getElementById("coffeeHouseText");
+      if (coffeeHouseText) {
+        coffeeHouseText.addEventListener("click", function (e) {
+          window.location.href = "sobre-ns.html";
+        });
+      }
+      
+      var salvarSenhaText = document.getElementById("salvarSenhaText");
+      if (salvarSenhaText) {
+        salvarSenhaText.addEventListener("click", function (e) {
+          window.location.href = "./entrar.html";
+        });
+      }
+      
+      var boto = document.getElementById("boto");
+      if (boto) {
+        boto.addEventListener("click", function (e) {
+          window.location.href = "./entrar.html";
+        });
+      }
+      </script>
+  </body>
+</html>

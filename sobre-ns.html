@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sobre-ns">
+      <img
+        class="navigation-footer"
+        alt=""
+        src="./public/navigation--footer.svg"
+      />
+
+      <a class="boto" href="./meu-estilo.html" id="boto">
+        <div class="descobrir-meu-estilo">Descobrir Meu Estilo</div>
+      </a>
+      <div class="cada-xcara-container">
+        <p class="cada-xcara">
+          Cada xícara é uma obra-prima cuidadosamente elaborada, desde a seleção
+          dos grãos até a moagem e torra precisas.
+        </p>
+        <p class="cada-xcara">&nbsp;</p>
+        <p class="cada-xcara">
+          Na jornada do café, cada passo é crucial. Começamos com grãos
+          selecionados, buscando os sabores mais ricos e distintos. Em seguida,
+          nossa equipe de especialistas em torra assume o controle, ajustando o
+          calor e o tempo para realçar os aromas e notas únicas de cada lote.
+          Daí em diante, a moagem é uma dança delicada, que pode ou não ser
+          feita(vai da sua escolha), onde ajustamos a textura para se adequar
+          perfeitamente ao método de preparo escolhido por você.
+        </p>
+        <p class="cada-xcara">&nbsp;</p>
+        <p class="cada-xcara">
+          Tem dúvidas a respeito de qual método melhor se adapta ao seu paladar?
+        </p>
+        <p class="cada-xcara">&nbsp;</p>
+        <p class="cada-xcara">
+          Acreditamos que cada técnica tem o poder de transformar o café em algo
+          verdadeiramente excepcional. Seja através de um coador meticuloso que
+          revela nuances sutis ou da prensa francesa que proporciona uma textura
+          sedosa e rica, cada método traz consigo uma experiência única e
+          inesquecível.
+        </p>
+        <p class="cada-xcara">&nbsp;</p>
+        <p class="cada-xcara">
+          Então, venha conosco nesta jornada de descoberta e prazer, onde cada
+          xícara é mais do que uma bebida - é uma celebração da arte e ciência
+          por trás do café perfeito. Experimente o nosso compromisso com a
+          qualidade e apaixone-se por cada gole.
+        </p>
+      </div>
+      <div class="o-que-acreditamos">O que acreditamos</div>
+      <div class="sul-de-minas-container">
+        <span class="sul-de-minas">Sul de Minas Gerais</span>
+        <span class="parceiro-que-possui">
+          — parceiro que possui uma das plantações de café responsável por uma
+          parte significativa do suprimento global.</span
+        >
+      </div>
+      <img class="caf-2-icon" alt="" src="./public/caf-2@2x.png" />
+
+      <img class="caf-1-icon" alt="" src="./public/caf-1@2x.png" />
+
+      <a class="boto1" href="./meu-estilo.html" id="boto1">
+        <div class="encontre-seu-favorito">Encontre seu Favorito Conosco</div>
+      </a>
+      <div class="sabor-que-inspira-container">
+        <i>Sabor</i>
+        <span> que inspira, </span>
+        <i>aroma</i>
+        <span> que encanta. Descubra o </span>
+        <span class="sul-de-minas">verdadeiro</span>
+        <span> café.</span>
+      </div>
+      <div class="header">
+        <a class="boto2" href="./carrinho.html" id="boto2">
+          <div class="carrinho">Carrinho</div>
+        </a>
+        <a class="minha-conta" href="./meu-perfil.html">Minha Conta</a>
+        <b class="sobre-ns1" id="sobreNsText">Sobre Nós</b>
+        <a class="produtos" href="./produtos.html" id="produtos">Produtos</a>
+        <a class="meu-estilo" href="./meu-estilo.html" id="meuEstilo"
+          >Meu Estilo</a
+        >
+        <div class="coffeehouse">CoffeeHouse</div>
+      </div>
+    </div>
+
+    <script>
+      var boto = document.getElementById("boto");
+      if (boto) {
+        boto.addEventListener("click", function (e) {
+          window.location.href = "./meu-estilo.html";
+        });
+      }
+      
+      var boto1 = document.getElementById("boto1");
+      if (boto1) {
+        boto1.addEventListener("click", function (e) {
+          window.location.href = "./produtos.html";
+        });
+      }
+      
+      var boto2 = document.getElementById("boto2");
+      if (boto2) {
+        boto2.addEventListener("click", function (e) {
+          window.location.href = "./carrinho.html";
+        });
+      }
+      
+      var sobreNsText = document.getElementById("sobreNsText");
+      if (sobreNsText) {
+        sobreNsText.addEventListener("click", function (e) {
+          window.location.href = "sobre-ns.html";
+        });
+      }
+      
+      var produtos = document.getElementById("produtos");
+      if (produtos) {
+        produtos.addEventListener("click", function (e) {
+          window.location.href = "./produtos.html";
+        });
+      }
+      
+      var meuEstilo = document.getElementById("meuEstilo");
+      if (meuEstilo) {
+        meuEstilo.addEventListener("click", function (e) {
+          window.location.href = "./meu-estilo.html";
+        });
+      }
+      </script>
+  </body>
+</html>

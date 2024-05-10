@@ -1,0 +1,79 @@
+.atualizar-pedido {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-oldlace);
+  text-align: left;
+  display: inline-block;
+}
+.boto3 {
+  position: absolute;
+  top: 52px;
+  left: 967px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-tan-100);
+  width: 300px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.no-iniciado {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.posio,
+.posio1,
+.status {
+  border-radius: var(--br-5xs);
+  height: 59px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.posio {
+  width: 276px;
+  background-color: rgba(190, 155, 123, 0.8);
+  color: var(--color-oldlace);
+}
+.posio1,
+.status {
+  width: 284px;
+  background-color: var(--color-tan-300);
+}
+.status {
+  position: absolute;
+  top: 37px;
+  left: 34px;
+  border-radius: var(--br-xs);
+  width: 883px;
+  height: 74px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.acompanhar-pedido-funcionrio {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 168px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-600);
+  font-family: var(--small-text);
+}

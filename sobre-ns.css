@@ -1,0 +1,198 @@
+.navigation-footer {
+    position: absolute;
+    width: 100%;
+    top: 2295px;
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 237px;
+  }
+  .descobrir-meu-estilo {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 99.5px);
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .boto {
+    text-decoration: none;
+    position: absolute;
+    top: 2171px;
+    left: calc(50% + 304px);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-sienna);
+    width: 245px;
+    height: 64px;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--color-oldlace);
+  }
+  .cada-xcara {
+    margin: 0;
+  }
+  .cada-xcara-container,
+  .o-que-acreditamos {
+    position: absolute;
+    line-height: 160%;
+    display: inline-block;
+  }
+  .cada-xcara-container {
+    width: calc(100% - 482px);
+    top: 1550px;
+    left: 309px;
+  }
+  .o-que-acreditamos {
+    top: 1555px;
+    left: 96px;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 181px;
+  }
+  .sul-de-minas {
+    font-weight: 500;
+  }
+  .parceiro-que-possui {
+    font-weight: 300;
+  }
+  .sul-de-minas-container {
+    position: absolute;
+    width: calc(100% - 704px);
+    top: 1287px;
+    left: 660px;
+    font-size: var(--font-size-sm);
+    letter-spacing: -0.01em;
+    line-height: 160%;
+    display: inline-block;
+  }
+  .caf-1-icon,
+  .caf-2-icon {
+    position: absolute;
+    top: 782px;
+    left: 660px;
+    width: 780px;
+    height: 492px;
+    object-fit: cover;
+  }
+  .caf-1-icon {
+    top: 699px;
+    left: 96px;
+    width: 512px;
+    height: 693px;
+  }
+  .encontre-seu-favorito {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: calc(50% - 151px);
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .boto1 {
+    text-decoration: none;
+    position: absolute;
+    top: 481px;
+    left: calc(50% - 179px);
+    border-radius: var(--br-5xs);
+    background-color: var(--color-sienna);
+    width: 358px;
+    height: 64px;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--color-oldlace);
+  }
+  .sabor-que-inspira-container {
+    position: absolute;
+    width: calc(100% - 420px);
+    top: 279px;
+    left: 217px;
+    font-size: var(--font-size-45xl);
+    letter-spacing: -0.02em;
+    line-height: 120%;
+    text-align: center;
+    display: inline-block;
+    font-family: var(--font-newsreader);
+  }
+  .carrinho {
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: calc(50% - 34px);
+    line-height: 130%;
+    font-weight: 600;
+  }
+  .boto2,
+  .minha-conta {
+    text-decoration: none;
+    position: absolute;
+  }
+  .boto2 {
+    top: 32px;
+    right: 96px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-sienna);
+    width: 126px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--color-oldlace);
+  }
+  .minha-conta {
+    top: 45.5px;
+    right: 260px;
+    line-height: 130%;
+    color: inherit;
+  }
+  .meu-estilo,
+  .produtos,
+  .sobre-ns1 {
+    position: absolute;
+    top: 45.5px;
+    right: 398px;
+    line-height: 130%;
+    cursor: pointer;
+  }
+  .meu-estilo,
+  .produtos {
+    text-decoration: none;
+    top: 46px;
+    right: 522px;
+    color: inherit;
+  }
+  .meu-estilo {
+    right: 631px;
+  }
+  .coffeehouse {
+    position: absolute;
+    top: 41px;
+    left: 96px;
+    font-size: var(--font-size-13xl);
+    letter-spacing: -0.01em;
+    line-height: 100%;
+    font-weight: 500;
+    font-family: var(--font-newsreader);
+    color: var(--color-sienna);
+    text-align: left;
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 112px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--small-text-size);
+  }
+  .sobre-ns {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-oldlace);
+    height: 2532px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--body-text-size);
+    color: var(--color-darkslategray-100);
+    font-family: var(--small-text);
+  }
+  

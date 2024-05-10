@@ -1,0 +1,372 @@
+.icon11,
+.navigation-footer10 {
+  position: absolute;
+  overflow: hidden;
+}
+.navigation-footer10 {
+  width: 100%;
+  top: 868px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 237px;
+}
+.icon11 {
+  top: calc(50% - 16px);
+  right: 16px;
+  width: 32px;
+  height: 32px;
+}
+.continue-para-pagamento {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 24px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.boto21 {
+  text-decoration: none;
+  position: absolute;
+  width: calc(100% - 48px);
+  right: 24px;
+  bottom: 17px;
+  left: 24px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}
+.r20950 {
+  top: 0;
+  right: 0;
+  line-height: 130%;
+  font-weight: 600;
+}
+.r20950,
+.total1,
+.total2 {
+  position: absolute;
+}
+.total2 {
+  top: 3px;
+  left: 0;
+  line-height: 130%;
+  font-weight: 600;
+  text-align: left;
+}
+.total1 {
+  top: 156px;
+  right: 24px;
+  width: 347px;
+  height: 24px;
+}
+.entrega1,
+.r1590 {
+  position: absolute;
+  top: 0;
+  line-height: 130%;
+}
+.r1590 {
+  right: 0;
+}
+.entrega1 {
+  left: 0;
+  text-align: left;
+}
+.entrega,
+.subtotal {
+  position: absolute;
+  top: 119px;
+  right: 24px;
+  width: 347px;
+  height: 21px;
+}
+.subtotal {
+  top: 82px;
+}
+.resumo-da-compra1 {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: var(--body-text-size);
+  line-height: 130%;
+  font-weight: 600;
+  text-align: left;
+}
+.resumo-da-compra {
+  position: absolute;
+  width: calc(100% - 1045px);
+  top: 301px;
+  right: 96px;
+  left: 949px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-100);
+  border: 2px solid var(--color-tan-100);
+  box-sizing: border-box;
+  height: 261px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--small-text-size);
+  color: var(--color-oldlace);
+}
+.unidade {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: 16px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.icon12 {
+  position: absolute;
+  top: calc(50% - 16px);
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.input-field15 {
+  position: absolute;
+  bottom: 34px;
+  left: 653px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 144px;
+  height: 40px;
+  overflow: hidden;
+  font-size: var(--small-text-size);
+}
+.moagem-fina,
+.r3220 {
+  position: absolute;
+  line-height: 130%;
+  font-weight: 600;
+}
+.r3220 {
+  top: 24px;
+  right: 24px;
+  text-align: right;
+}
+.moagem-fina {
+  top: 57px;
+  left: 373px;
+}
+.caixa47,
+.torrefao-clara {
+  position: absolute;
+  top: 24px;
+}
+.torrefao-clara {
+  left: 373px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.caixa47 {
+  left: 24px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-500);
+  width: 305px;
+  height: 125px;
+}
+.librica6 {
+  position: absolute;
+  top: 50px;
+  left: 109px;
+  font-size: var(--font-size-17xl);
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-newsreader);
+  color: var(--color-tan-100);
+  width: 136px;
+  height: 37px;
+  opacity: 0.8;
+}
+.librica5 {
+  position: absolute;
+  width: calc(100% - 619px);
+  top: 669px;
+  right: 519px;
+  left: 100px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 159px;
+  overflow: hidden;
+}
+.arbica-1005 {
+  position: absolute;
+  top: 52px;
+  left: 55px;
+  font-size: var(--font-size-17xl);
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-newsreader);
+  color: var(--color-tan-100);
+  width: 257px;
+  height: 37px;
+  opacity: 0.8;
+}
+.arbica-1004 {
+  position: absolute;
+  width: calc(100% - 619px);
+  top: 485px;
+  right: 519px;
+  left: 100px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 159px;
+  overflow: hidden;
+}
+.arbica-985 {
+  position: absolute;
+  top: 50px;
+  left: 61px;
+  font-size: var(--font-size-17xl);
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  font-family: var(--font-newsreader);
+  color: var(--color-tan-100);
+  width: 232px;
+  height: 37px;
+  opacity: 0.8;
+}
+.arbica-984 {
+  position: absolute;
+  width: calc(100% - 619px);
+  top: 301px;
+  right: 523px;
+  left: 96px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 159px;
+  overflow: hidden;
+}
+.itens {
+  position: absolute;
+  bottom: 33px;
+  left: 362px;
+  line-height: 130%;
+  font-weight: 300;
+}
+.carrinho6 {
+  position: absolute;
+  bottom: 16px;
+  left: 96px;
+  font-size: var(--font-size-45xl);
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-family: var(--font-newsreader);
+}
+.divider9 {
+  position: absolute;
+  width: calc(100% - 190px);
+  right: 95px;
+  bottom: -1px;
+  left: 95px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-top: 2px solid var(--color-tan-100);
+  box-sizing: border-box;
+  height: 2px;
+}
+.page-heading7 {
+  position: absolute;
+  width: 100%;
+  top: 112px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-oldlace);
+  height: 149px;
+  overflow: hidden;
+}
+.carrinho7 {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 34px);
+  line-height: 130%;
+  font-weight: 600;
+}
+.boto22 {
+  position: absolute;
+  top: 32px;
+  right: 96px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 126px;
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--color-oldlace);
+}
+.minha-conta9 {
+  position: absolute;
+  top: 45.5px;
+  right: 260px;
+}
+.minha-conta9,
+.produtos6,
+.sobre-ns6 {
+  text-decoration: none;
+  line-height: 130%;
+  color: inherit;
+}
+.sobre-ns6 {
+  position: absolute;
+  top: 45.5px;
+  right: 399px;
+  cursor: pointer;
+}
+.produtos6 {
+  top: 46px;
+  right: 522px;
+}
+.coffeehouse10,
+.meu-estilo6,
+.produtos6 {
+  position: absolute;
+  cursor: pointer;
+}
+.meu-estilo6 {
+  text-decoration: none;
+  top: 46px;
+  right: 631px;
+  line-height: 130%;
+  color: inherit;
+}
+.coffeehouse10 {
+  top: 41px;
+  left: 96px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-newsreader);
+  color: var(--color-sienna);
+  text-align: left;
+}
+.header10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 112px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--small-text-size);
+}
+.carrinho5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 1105px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--small-text);
+}

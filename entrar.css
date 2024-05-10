@@ -1,0 +1,230 @@
+.navigation-footer16 {
+  position: absolute;
+  width: 100%;
+  top: 737px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 237px;
+}
+.aqui1 {
+  text-decoration: underline;
+}
+.aqui-txt {
+  width: 100%;
+}
+.aqui {
+  top: 586px;
+  left: 875px;
+  width: 45px;
+  cursor: pointer;
+}
+.aqui,
+.equeci-minha-senha,
+.se-ainda-no {
+  position: absolute;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  height: 27px;
+}
+.equeci-minha-senha {
+  top: 626px;
+  left: 640px;
+  text-decoration: underline;
+  width: 160px;
+  cursor: pointer;
+}
+.se-ainda-no {
+  top: 586px;
+  left: 517px;
+  width: 404px;
+}
+.label84 {
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--small-text);
+  font-size: var(--body-text-size);
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  color: var(--color-dimgray-400);
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.e-mail6 {
+  width: 585px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-oldlace);
+  box-sizing: border-box;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+}
+.entrar3 {
+  text-decoration: none;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: inherit;
+}
+.boto34 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.input-and-button1,
+.log-in1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.input-and-button1 {
+  width: 585px;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.log-in1 {
+  position: absolute;
+  top: 410px;
+  left: 426px;
+  width: 587px;
+  align-items: center;
+  color: var(--color-white);
+}
+.entrar4 {
+  position: absolute;
+  bottom: 16px;
+  left: 96px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.divider15 {
+  position: absolute;
+  width: calc(100% - 190px);
+  right: 95px;
+  bottom: -1px;
+  left: 95px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-top: 2px solid var(--color-tan-100);
+  box-sizing: border-box;
+  height: 2px;
+}
+.page-heading13 {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  background-color: var(--color-oldlace);
+  width: 1440px;
+  height: 149px;
+  overflow: hidden;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-newsreader);
+}
+.carrinho12 {
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 34px);
+  line-height: 130%;
+  font-weight: 600;
+  color: inherit;
+}
+.boto35 {
+  position: absolute;
+  top: 32px;
+  right: 96px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 126px;
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  color: var(--color-oldlace);
+}
+.entrar5 {
+  position: absolute;
+  top: 45.5px;
+  right: 283px;
+  font-weight: 700;
+}
+.entrar5,
+.produtos11,
+.sobre-ns11 {
+  text-decoration: none;
+  line-height: 130%;
+  color: inherit;
+}
+.sobre-ns11 {
+  position: absolute;
+  top: 45.5px;
+  right: 399px;
+  cursor: pointer;
+}
+.produtos11 {
+  top: 46px;
+  right: 522px;
+}
+.coffeehouse16,
+.meu-estilo11,
+.produtos11 {
+  position: absolute;
+  cursor: pointer;
+}
+.meu-estilo11 {
+  text-decoration: none;
+  top: 46px;
+  right: 631px;
+  line-height: 130%;
+  color: inherit;
+}
+.coffeehouse16 {
+  top: 41px;
+  left: 96px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-newsreader);
+  color: var(--color-sienna);
+  text-align: left;
+}
+.header16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 112px;
+  overflow: hidden;
+  text-align: center;
+  color: var(--color-darkslategray-100);
+}
+.entrar2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 974px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--small-text);
+}

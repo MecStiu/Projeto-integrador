@@ -1,0 +1,441 @@
+.navigation-footer9 {
+  position: absolute;
+  width: 100%;
+  top: 1130px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 237px;
+}
+.realizar-pagamento {
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 77px);
+  line-height: 130%;
+  font-weight: 600;
+}
+.boto20 {
+  top: 1039px;
+  right: 88px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 1254px;
+  height: 48px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--small-text-size);
+  color: var(--color-oldlace);
+}
+.boto20,
+.editar,
+.icon8 {
+  position: absolute;
+}
+.editar {
+  top: calc(50% - 10.5px);
+  left: 16px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.icon8 {
+  top: calc(50% - 16px);
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.input-field12 {
+  position: absolute;
+  bottom: 32px;
+  left: 1087px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 144px;
+  height: 40px;
+  overflow: hidden;
+  font-size: var(--small-text-size);
+}
+.caixa43 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: rgba(190, 155, 123, 0.5);
+  width: 649px;
+  height: 165px;
+}
+.chevron-down-icon22,
+.label40 {
+  position: relative;
+  overflow: hidden;
+}
+.label40 {
+  flex: 1;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chevron-down-icon22 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.parcelas-do-cartao {
+  position: absolute;
+  top: 89px;
+  left: 36px;
+  border-radius: var(--br-5xs);
+  background-color: rgba(60, 47, 47, 0.2);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 574px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: var(--gap-base);
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+}
+.r00000,
+.total-da-compra {
+  position: absolute;
+  top: 36px;
+  left: 513px;
+  line-height: 130%;
+  font-weight: 600;
+  display: inline-block;
+  width: 99px;
+}
+.total-da-compra {
+  top: 34px;
+  left: 52px;
+  width: 213px;
+}
+.total {
+  position: absolute;
+  top: 42px;
+  left: 574px;
+  width: 649px;
+  height: 165px;
+  color: var(--color-darkslategray-400);
+}
+.boleto-bancrio {
+  position: absolute;
+  top: 6px;
+  left: 43px;
+  line-height: 130%;
+  font-weight: 600;
+  display: inline-block;
+  width: 231px;
+}
+.checkbox {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 31px;
+  height: 31px;
+}
+.boleto-bancario {
+  top: 224px;
+  left: 51px;
+  width: 274px;
+  height: 32px;
+}
+.boleto-bancario,
+.pix,
+.pix1 {
+  position: absolute;
+}
+.pix1 {
+  top: 3px;
+  left: 43px;
+  line-height: 130%;
+  font-weight: 600;
+  display: inline-block;
+  width: 231px;
+}
+.pix {
+  top: 175px;
+  left: 51px;
+  width: 274px;
+  height: 31px;
+}
+.carto-crditodbito1 {
+  position: absolute;
+  top: 11px;
+  left: 43px;
+  line-height: 130%;
+  font-weight: 600;
+  display: inline-block;
+  width: 231px;
+}
+.checkbox2 {
+  margin: 0;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 31px;
+  height: 31px;
+}
+.check-icon {
+  position: absolute;
+  top: 0;
+  left: 2.5px;
+  width: 25.5px;
+  height: 34.5px;
+}
+.caixa44,
+.carto-crditodbito {
+  position: absolute;
+  top: 118px;
+  left: 51px;
+  width: 274px;
+  height: 39px;
+}
+.caixa44 {
+  top: 24px;
+  left: 24px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-500);
+  width: 305px;
+  height: 48px;
+}
+.meio-de-pagamento1 {
+  position: absolute;
+  top: 35px;
+  left: 78px;
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-tan-100);
+  width: 220px;
+  height: 37px;
+  opacity: 0.8;
+}
+.meio-de-pagamento {
+  position: absolute;
+  width: calc(100% - 186px);
+  top: 678px;
+  right: 88px;
+  left: 98px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 318px;
+  overflow: hidden;
+}
+.aqui-vai-aparecer {
+  position: absolute;
+  top: 37px;
+  left: 362px;
+  line-height: 130%;
+  font-weight: 600;
+  color: var(--color-darkslategray-400);
+}
+.endereo-de-entrega1 {
+  position: absolute;
+  top: 31px;
+  left: 67px;
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-tan-100);
+  width: 220px;
+  height: 37px;
+  opacity: 0.8;
+}
+.endereo-de-entrega {
+  position: absolute;
+  width: calc(100% - 186px);
+  top: 554px;
+  right: 88px;
+  left: 98px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 100px;
+  overflow: hidden;
+}
+.input-field14 {
+  position: absolute;
+  bottom: 32px;
+  left: 1087px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 144px;
+  height: 40px;
+  overflow: hidden;
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+}
+.aqui-vai-aparecer1,
+.aqui-vai-aparecer2,
+.aqui-vai-aparecer3 {
+  position: absolute;
+  top: 116px;
+  left: 362px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.aqui-vai-aparecer2,
+.aqui-vai-aparecer3 {
+  top: 74px;
+}
+.aqui-vai-aparecer3 {
+  top: 28px;
+}
+.resumo-do-pedido5 {
+  position: absolute;
+  top: 32px;
+  left: 81px;
+  line-height: 150%;
+  display: inline-block;
+  font-weight: 700;
+  color: var(--color-tan-100);
+  width: 220px;
+  height: 37px;
+  opacity: 0.8;
+}
+.resumo-do-pedido4 {
+  position: absolute;
+  width: calc(100% - 186px);
+  top: 350px;
+  right: 91px;
+  left: 95px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 177px;
+  overflow: hidden;
+  color: var(--color-darkslategray-400);
+}
+.pagamento1 {
+  position: absolute;
+  bottom: 16px;
+  left: 96px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.divider8 {
+  position: absolute;
+  width: calc(100% - 190px);
+  right: 95px;
+  bottom: -1px;
+  left: 95px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-top: 2px solid var(--color-tan-100);
+  box-sizing: border-box;
+  height: 2px;
+}
+.coffeehouse9,
+.page-heading6 {
+  position: absolute;
+  font-family: var(--font-newsreader);
+}
+.page-heading6 {
+  top: 139px;
+  left: 0;
+  background-color: var(--color-oldlace);
+  width: 1440px;
+  height: 149px;
+  overflow: hidden;
+  font-size: var(--font-size-45xl);
+}
+.coffeehouse9 {
+  top: 41px;
+  left: 96px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--color-sienna);
+  text-align: left;
+  cursor: pointer;
+}
+.produtos5,
+.sobre-ns5 {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.produtos5 {
+  position: absolute;
+  top: 46px;
+  right: 522px;
+  line-height: 130%;
+}
+.sobre-ns5 {
+  top: 45.5px;
+  right: 399px;
+}
+.carrinho4,
+.minha-conta8,
+.sobre-ns5 {
+  position: absolute;
+  line-height: 130%;
+}
+.minha-conta8 {
+  text-decoration: none;
+  top: 45.5px;
+  right: 260px;
+  color: inherit;
+}
+.carrinho4 {
+  top: calc(50% - 10.5px);
+  left: calc(50% - 34px);
+  font-weight: 600;
+}
+.cart-button1,
+.meu-estilo5 {
+  text-decoration: none;
+  position: absolute;
+  cursor: pointer;
+}
+.cart-button1 {
+  top: 32px;
+  right: 96px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 126px;
+  height: 48px;
+  overflow: hidden;
+  color: var(--color-oldlace);
+}
+.meu-estilo5 {
+  top: 46px;
+  right: 631px;
+  line-height: 130%;
+  color: inherit;
+}
+.header9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 112px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--small-text-size);
+}
+.pagamento {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 1367px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--small-text);
+}

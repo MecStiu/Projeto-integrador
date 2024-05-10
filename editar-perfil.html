@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./editar-perfil.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Just Me Again Down Here:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="editar-perfil2">
+      <img
+        class="navigation-footer14"
+        alt=""
+        src="./public/navigation--footer.svg"
+      />
+
+      <div class="boto30" id="botoContainer">
+        <div class="salvar-alteraes">Salvar Alterações</div>
+      </div>
+      <div class="dados-do-carto">
+        <div class="cpf-do-titular">
+          <div class="field2">
+            <input class="label43" placeholder="CPF do titular" id="cpf" type="text" maxlength="14" required/>
+          </div>
+        </div>
+        <div class="nome-impresso-no-carto">
+          <div class="field3">
+            <input
+              class="label44"
+              placeholder="Nome impresso no cartão"
+              type="text" maxlength="20"
+            />
+          </div>
+        </div>
+        <div class="cvv">
+          <div class="cvv1">CVV</div>
+          <div class="field4">
+            <input class="label45" placeholder="cvv" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" maxlength="3" required/>
+          </div>
+        </div>
+        <div class="data-de-vencimento">
+          <div class="ano2">
+            <div class="label46">Ano</div>
+            <img
+              class="chevron-down-icon23"
+              alt=""
+              src="./public/chevrondown.svg"
+            />
+          </div>
+          <div class="ms2">
+            <div class="label46">Mês</div>
+            <img
+              class="chevron-down-icon23"
+              alt=""
+              src="./public/chevrondown.svg"
+            />
+          </div>
+          <div class="dia2">
+            <div class="label46">Dia</div>
+            <img
+              class="chevron-down-icon23"
+              alt=""
+              src="./public/chevrondown.svg"
+            />
+          </div>
+          <div class="data-de-vencimento1">Data de Vencimento</div>
+        </div>
+        <div class="nmero-do-carto">
+          <div class="cvv1">Número do Cartão</div>
+          <div class="field5">
+            <input
+              class="label49"
+              placeholder="0000 0000 0000 0000"
+              type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" maxlength="16"  required/>
+          </div>
+        </div>
+        <i class="dados-do-carto1">Dados do Cartão</i>
+      </div>
+      <div class="nmero-para-contato4">
+        <div class="cvv1">Número para Contato</div>
+        <div class="field6">
+          <input class="label49" placeholder="(00)00000-0000" id= cell type="text" />
+        </div>
+      </div>
+      <div class="cpf2">
+        <input class="label51" placeholder="CPF" id="cpf2" type="text" />
+      </div>
+      <div class="data-aniversrio2">
+        <div class="ano3">
+          <div class="label46">Ano</div>
+          <img
+            class="chevron-down-icon23"
+            alt=""
+            src="./public/chevrondown.svg"
+          />
+        </div>
+        <div class="ms3">
+          <div class="label46">Mês</div>
+          <img
+            class="chevron-down-icon23"
+            alt=""
+            src="./public/chevrondown.svg"
+          />
+        </div>
+        <div class="dia3">
+          <div class="label46">Dia</div>
+          <img
+            class="chevron-down-icon23"
+            alt=""
+            src="./public/chevrondown.svg"
+          />
+        </div>
+        <div class="data-de-vencimento1">Data de Aniversário</div>
+      </div>
+      <div class="nmero2">
+        <input class="label51" placeholder="Número" type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');" maxlength="4" />
+      </div>
+      <div class="complemento2">
+        <input class="label51" placeholder="Complemento" type="text" />
+      </div>
+      <div class="e-mail4">
+        <input class="label51" placeholder="E-mail" type="text" />
+      </div>
+      <div class="endereo">
+        <input class="label51" placeholder="Endereço" type="text" />
+      </div>
+      <div class="sobremome2">
+        <input class="label51" placeholder="Sobrenome" type="text" />
+      </div>
+      <div class="uf">
+        <input class="label51" placeholder="UF" type="text" />
+      </div>
+      <div class="rg">
+        <input class="label51" placeholder="RG" id="rg" type="text" />
+      </div>
+      <div class="nome2">
+        <input class="label51" placeholder="Nome" type="text" />
+      </div>
+      <div class="page-heading11">
+        <div class="editar-perfil3">Editar Perfil</div>
+        <div class="divider13"></div>
+      </div>
+      <div class="header14">
+        <div class="boto31" id="botoContainer">
+          <div class="carrinho10">Carrinho</div>
+        </div>
+        <b class="minha-conta12">Minha Conta</b>
+        <div class="sobre-ns9" id="sobreNsText">Sobre Nós</div>
+        <div class="produtos9" id="produtosText">Produtos</div>
+        <div class="meu-estilo9" id="meuEstiloText">Meu Estilo</div>
+        <div class="coffeehouse14" id="coffeeHouseText">CoffeeHouse</div>
+      </div>
+    </div>
+
+    <script>
+      var botoContainer = document.getElementById("botoContainer");
+      if (botoContainer) {
+        botoContainer.addEventListener("click", function (e) {
+          window.location.href = "./meu-perfil.html";
+        });
+      }
+      
+      var botoContainer = document.getElementById("botoContainer");
+      if (botoContainer) {
+        botoContainer.addEventListener("click", function (e) {
+          window.location.href = "./carrinho.html";
+        });
+      }
+      
+      var sobreNsText = document.getElementById("sobreNsText");
+      if (sobreNsText) {
+        sobreNsText.addEventListener("click", function (e) {
+          window.location.href = "sobre-ns.html";
+        });
+      }
+      
+      var produtosText = document.getElementById("produtosText");
+      if (produtosText) {
+        produtosText.addEventListener("click", function (e) {
+          window.location.href = "./produtos.html";
+        });
+      }
+      
+      var meuEstiloText = document.getElementById("meuEstiloText");
+      if (meuEstiloText) {
+        meuEstiloText.addEventListener("click", function (e) {
+          window.location.href = "./meu-estilo.html";
+        });
+      }
+      
+      var coffeeHouseText = document.getElementById("coffeeHouseText");
+      if (coffeeHouseText) {
+        coffeeHouseText.addEventListener("click", function (e) {
+          window.location.href = "sobre-ns.html";
+        });
+      }
+      </script>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+      <script>
+      $('#cpf').mask('000.000.000-00', {reverse: true});
+      $('#cpf2').mask('000.000.000-00', {reverse: true});
+      $('.label49').mask('0000 0000 0000 0000');
+      $('#cell').mask('(00) 00000-0000');
+      $('#rg').mask('00.000.000-0');
+      </script>
+  </body>
+</html>

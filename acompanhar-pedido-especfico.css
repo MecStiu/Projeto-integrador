@@ -1,0 +1,160 @@
+.rastrear-pedido {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.boto23,
+.ver-nota-fiscal {
+  font-size: var(--small-text-size);
+  color: var(--color-white);
+}
+.boto23 {
+  text-decoration: none;
+  position: absolute;
+  top: 400px;
+  left: 209px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 306px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.ver-nota-fiscal {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  text-align: left;
+}
+.boto24 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base);
+  background-color: var(--color-tan-100);
+  position: absolute;
+  top: 400px;
+  left: 738px;
+  border-radius: var(--br-5xs);
+  width: 306px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.barra-de-status {
+  position: absolute;
+  top: 309px;
+  left: 131px;
+  width: 980px;
+  height: 27px;
+}
+.em-transporte,
+.pedido-realizado {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 110%;
+  font-weight: 600;
+}
+.em-transporte {
+  color: var(--color-darkslategray-200);
+}
+.status1 {
+  position: absolute;
+  top: 262px;
+  left: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: var(--subheading-size);
+  color: var(--color-darkslategray-100);
+}
+.aqui-vai-aparecer4,
+.qtd-0,
+.subtotal-r0000,
+.valor-unitrio-r0000 {
+  position: absolute;
+  top: 1px;
+  left: 966px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.aqui-vai-aparecer4,
+.qtd-0,
+.valor-unitrio-r0000 {
+  left: 712px;
+}
+.aqui-vai-aparecer4,
+.qtd-0 {
+  left: 606px;
+}
+.aqui-vai-aparecer4 {
+  top: 0;
+  left: 0;
+}
+.produto-3 {
+  position: absolute;
+  top: 160px;
+  left: 55px;
+  width: 1143px;
+  height: 27px;
+}
+.qtd-01,
+.subtotal-r00001,
+.valor-unitrio-r00001 {
+  position: absolute;
+  top: 0;
+  left: 967px;
+  line-height: 130%;
+  font-weight: 600;
+}
+.qtd-01,
+.valor-unitrio-r00001 {
+  left: 607px;
+}
+.valor-unitrio-r00001 {
+  left: 713px;
+}
+.produto-1,
+.produto-2 {
+  position: absolute;
+  top: 115px;
+  left: 55px;
+  width: 1144px;
+  height: 26px;
+}
+.produto-1 {
+  top: 69px;
+}
+.resumo-do-pedido6 {
+  position: absolute;
+  width: calc(100% - 16px);
+  top: -21px;
+  right: 8px;
+  left: 8px;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 482px;
+  overflow: hidden;
+}
+.acompanhar-pedido-especfico {
+  width: 1270px;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 481px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-darkslategray-400);
+  font-family: var(--small-text);
+}

@@ -1,0 +1,323 @@
+.navigation-footer2 {
+  position: absolute;
+  width: 100%;
+  top: 1936px;
+  right: 1px;
+  left: -1px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 237px;
+}
+.atualizar-estoque {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 67.5px);
+  font-size: var(--small-text-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--small-text);
+  color: var(--color-oldlace);
+  text-align: center;
+  display: inline-block;
+}
+.boto4 {
+  position: absolute;
+  top: 1815px;
+  right: 80px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-tan-100);
+  width: 637px;
+  height: 48px;
+  overflow: hidden;
+}
+.cancelar {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 10.5px);
+  left: calc(50% - 34.5px);
+  font-size: var(--small-text-size);
+  line-height: 130%;
+  font-weight: 600;
+  font-family: var(--small-text);
+  color: var(--color-oldlace);
+  text-align: center;
+  display: inline-block;
+}
+.boto5 {
+  position: absolute;
+  top: 1815px;
+  right: 755px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-sienna);
+  width: 607px;
+  height: 48px;
+  overflow: hidden;
+}
+.estoque2 {
+  position: absolute;
+  bottom: 16px;
+  left: 96px;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+}
+.divider1 {
+  position: absolute;
+  width: calc(100% - 190px);
+  right: 95px;
+  bottom: -1px;
+  left: 95px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  border-top: 2px solid var(--color-tan-100);
+  box-sizing: border-box;
+  height: 2px;
+}
+.page-heading1 {
+  position: absolute;
+  width: 100%;
+  top: 122px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-oldlace);
+  height: 149px;
+  overflow: hidden;
+  font-size: var(--font-size-45xl);
+  color: var(--color-darkslategray-100);
+}
+.coffeehouse2 {
+  position: absolute;
+  top: 41px;
+  left: 96px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: -0.01em;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-newsreader);
+  color: var(--color-sienna);
+  text-align: left;
+}
+.estoque3,
+.minha-conta2,
+.pedidos1 {
+  position: absolute;
+  top: 46px;
+  line-height: 130%;
+}
+.pedidos1 {
+  text-decoration: none;
+  right: 383px;
+  color: inherit;
+  cursor: pointer;
+}
+.estoque3,
+.minha-conta2 {
+  right: 258px;
+}
+.minha-conta2 {
+  text-decoration: none;
+  right: 103px;
+  color: inherit;
+  cursor: pointer;
+}
+.caixa4,
+.header2 {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.header2 {
+  position: absolute;
+  width: 1440px;
+  height: 112px;
+  text-align: center;
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--small-text);
+}
+.caixa4 {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-tan-200);
+  height: 145px;
+}
+.caixa4,
+.icon,
+.kg {
+  position: absolute;
+}
+.kg {
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--small-text);
+  font-size: var(--small-text-size);
+  background-color: transparent;
+  top: calc(50% - 10.5px);
+  left: 16px;
+  line-height: 130%;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+}
+.icon {
+  top: calc(50% - 16px);
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.input-field4 {
+  position: absolute;
+  bottom: 37px;
+  left: 1025px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 206px;
+  height: 70px;
+}
+.caixa5 {
+  position: absolute;
+  top: 24px;
+  left: 18px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray-500);
+  width: 343px;
+  height: 99px;
+}
+.typica1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 700;
+  opacity: 0.8;
+}
+.arbica,
+.typica {
+  position: absolute;
+}
+.arbica {
+  top: 49px;
+  left: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.typica {
+  width: calc(100% - 157px);
+  top: 1609px;
+  right: 80px;
+  left: 77px;
+  height: 145px;
+}
+.input-field5 {
+  position: absolute;
+  bottom: 37px;
+  left: 1029px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 206px;
+  height: 70px;
+}
+.bourbon {
+  position: absolute;
+  width: calc(100% - 157px);
+  top: 1430px;
+  right: 79px;
+  left: 78px;
+  height: 145px;
+}
+.input-field6 {
+  position: absolute;
+  bottom: 37px;
+  left: 1031px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 206px;
+  height: 70px;
+}
+.excelsa,
+.librica,
+.maragogipe {
+  position: absolute;
+  width: calc(100% - 157px);
+  top: 1251px;
+  right: 77px;
+  left: 80px;
+  height: 145px;
+}
+.excelsa,
+.librica {
+  top: 1072px;
+  right: 79px;
+  left: 78px;
+}
+.librica {
+  top: 893px;
+  right: 77px;
+  left: 80px;
+}
+.input-field9 {
+  position: absolute;
+  bottom: 37px;
+  left: 1041px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 206px;
+  height: 70px;
+}
+.robusta {
+  position: absolute;
+  width: calc(100% - 157px);
+  top: 714px;
+  right: 80px;
+  left: 77px;
+  height: 145px;
+}
+.input-field10 {
+  position: absolute;
+  bottom: 37px;
+  left: 1039px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-oldlace);
+  border: 2px solid var(--color-darkslategray-300);
+  box-sizing: border-box;
+  width: 206px;
+  height: 70px;
+}
+.arbica-100,
+.arbica-98 {
+  position: absolute;
+  width: calc(100% - 157px);
+  top: 535px;
+  right: 79px;
+  left: 78px;
+  height: 145px;
+}
+.arbica-100 {
+  top: 356px;
+}
+.estoque1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-oldlace);
+  height: 2173px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-tan-100);
+  font-family: var(--font-newsreader);
+}
