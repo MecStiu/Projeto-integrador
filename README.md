@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Figma basics
 
@@ -8,3 +9,7 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
   
+=======
+# Projeto-integrador
+#não sei oq escrever aqui só uso github pra utilizar uns programinha dahora
+>>>>>>> 3634798ff63e14caad12e886b5eb0e5f458cf0c7
